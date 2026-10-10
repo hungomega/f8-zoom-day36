@@ -1,0 +1,29 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    color: #fff;
+    background-color: black;
+
+    h1 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    nav {
+        display: flex;
+        gap: 20px;
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                color: yellow;
+            }
+        }
+    }
+}
